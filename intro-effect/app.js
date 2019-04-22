@@ -4,7 +4,7 @@ function scrollAppear(){
     var screenPosition = window.innerHeight / 1.3;
 
     if (introPosition < screenPosition) {
-        introText.classList.add('.text-appear');
+        introText.classList.add('text-appear');
     }
 }
 
