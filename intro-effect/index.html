@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image carousel</title>
     <link rel="stylesheet" href="style.css">
-    <title>Page effect</title>
 </head>
 <body>
-    <div class="box1">
-        <a href="#" class="section1">Bring me down</a>
-    </div>
-    <div class="box2">
-        <div class="text-intro">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis quisquam corrupti? Sapiente maxime laboriosam quam qui at possimus impedit id placeat hic explicabo repellendus iusto, fugiat odit amet minus.</h2>
-                <a href="#" class="section2">Thanks</a>          
+    <div class="carousel-container">
+        <div class="carousel-slide">
+            <img src="https://via.placeholder.com/900" id="lastClone" alt="">
+            <img src="https://via.placeholder.com/900" alt="">
+            <img src="https://via.placeholder.com/900" alt="">
+            <img src="https://via.placeholder.com/900" alt="">
+            <img src="https://via.placeholder.com/900" alt="">
+            <img src="https://via.placeholder.com/900" id="firstClone" alt="">
         </div>
-          <img src="shiba.jpeg" alt="">
     </div>
-
+    <button id="prevBnt">Prev</button>
+    <button id="nextBnt">Next</button>
+    
     <script src="app.js"></script>
 </body>
 </html>
