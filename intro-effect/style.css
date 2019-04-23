@@ -7,6 +7,7 @@
 .carousel-container {
     width: 60%;
     margin: 0px auto;
+    overflow: hidden;
 }
 
 .carousel-slide {
